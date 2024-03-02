@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "handwriting-kmeans"
+version = "0.1.0"
+description = ""
+authors = ["DeepBlockDeepak <jordan.medina1729@gmail.commit>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.2"
+scikit-learn = "^1.4.1.post1"
+matplotlib = "^3.8.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
